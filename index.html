@@ -24,7 +24,7 @@
    </style>
 </head>
 
-<body class="font-monrope">
+<body class="font-monrope space-y-14">
    <!-- Header Section -->
    <header>
       <section class="">
@@ -79,6 +79,7 @@
                   <button class="hidden md:block lg:hidden">
                      <i class="fa-solid fa-bars text-2xl font-bold"></i>
                   </button>
+
                </div>
             </div>
          </nav>
@@ -87,7 +88,7 @@
          <div class="max-w-screen-xl mx-auto text-center space-y-5 p-3">
             <!-- banner img -->
             <img class="mx-auto w-full md:max-w-[600px]" src="./assets/banner.png" alt="house" />
-            <h1 class="text-4xl md:text-6xl font-extrabold max-w-6xl mx-auto">
+            <h1 class="text-4xl md:text-6xl font-extrabold max-w-6xl mx-auto capitalize text-center">
                A barn house of this design has a striking appearance
             </h1>
             <p class="text-sm text-slate-500 max-w-6xl mx-auto">
@@ -106,7 +107,69 @@
    </header>
 
    <!-- Main Section -->
-   <main></main>
+   <main>
+      <!-- about us section -->
+      <section class="bg-gray-100 py-14">
+         <div class="max-w-screen-xl ms-auto text-center space-y-5 p-3 lg:grid grid-cols-2 gap-10">
+            <!-- about us LH: info  -->
+            <div class="space-y-5 relative">
+               <img class="hidden absolute xl:block -top-9 -left-12" src="./assets/Vector.png" alt="">
+               <!-- about us button -->
+               <div class="capitalize text-sm flex max-w-36 mx-auto lg:m-0 gap-2 items-center px-6 py-1 bg-white rounded-full text-slate-500">
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                  <p class="font-semibold">about us</p>
+               </div>
+               <h1 class="text-3xl md:text-4xl font-extrabold max-w-6xl mx-auto capitalize text-center">we design thoughtfull, liveable space</h1>
+               <p class="text-sm text-center">
+                  At Rinterio, we blend creativity and functionality to transform spaces both inside and out. Our team of expert designers is dedicated to crafting unique, stylish environments tailored to your vision. From innovative interiors to stunning exteriors, we bring your dream spaces to life with precision and passion.
+               </p>
+               <!-- about us: cards -->
+               <div class="space-y-4 md:grid grid-cols-2 gap-5 lg:block">
+                  <!-- commercial card -->
+                  <div class="flex gap-4 items-start p-3 shadow-lg rounded-lg">
+                     <img src="./assets/commercial.png" alt="">
+                     <div>
+                        <h2 class="text-xl text-slate-700 font-semibold text-left capitalize">Commercial</h2>
+                        <p class="text-sm text-slate-500 text-left">
+                           We design impactful commercial spaces that enhance brand identity and boost functionality, creating environments where business thrives and clients are impressed.
+                        </p>
+                     </div>
+                  </div>
+                  <!-- residential card -->
+                  <div class="flex gap-4 items-start p-3 shadow-lg rounded-lg">
+                     <img src="./assets/commercial.png" alt="">
+                     <div>
+                        <h2 class="text-xl text-slate-700 font-semibold text-left capitalize">residential</h2>
+                        <p class="text-sm text-slate-500 text-left">
+                           We create personalized, stylish residential spaces that reflect your lifestyle and taste, turning your house into a true home.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <!-- about us RH: imgage section -->
+            <div class="rounded-xl">
+               <img class="w-full md:aspect-[3/1.5] lg:h-full" src="./assets/Rectangle.png" alt="">
+            </div>
+         </div>
+      </section>
+      
+      <!-- how we work section -->
+      <section class="max-w-screen-xl mx-auto text-center space-y-5 p-3">
+
+      </section>
+
+      <!-- explore out latest works section -->
+      <section class="max-w-screen-xl mx-auto text-center space-y-5 p-3">
+
+      </section>
+
+      <!-- news section -->
+      <section class="max-w-screen-xl mx-auto text-center space-y-5 p-3">
+
+      </section>
+   </main>
 
    <!-- Footer Section -->
    <footer></footer>
