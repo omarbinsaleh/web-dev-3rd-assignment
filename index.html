@@ -21,6 +21,20 @@
       .font-monrope {
          font-family: "Manrope", sans-serif;
       }
+
+      .text-collapse-2 {
+         overflow: hidden;
+         display: -webkit-box;
+         -webkit-box-orient: vertical;
+         -webkit-line-clamp: 2;
+      }
+
+      .text-collapse-4 {
+         overflow: hidden;
+         display: -webkit-box;
+         -webkit-box-orient: vertical;
+         -webkit-line-clamp: 4;
+      }
    </style>
 </head>
 
@@ -216,7 +230,8 @@
                   <img src="./assets/concept.png" alt="">
                   <h2 class="text-xl font-semibold capitalize">Concept</h2>
                   <p class="text-sm text-slate-700">
-                     Our concept designs blend creativity and strategy, transforming ideas into compelling visual plans that set the foundation for exceptional spaces
+                     Our concept designs blend creativity and strategy, transforming ideas into compelling visual plans
+                     that set the foundation for exceptional spaces
                   </p>
                </div>
                <!-- design process card -->
@@ -224,7 +239,8 @@
                   <img src="./assets/flow-chart.png" alt="">
                   <h2 class="text-xl font-semibold capitalize">design process</h2>
                   <p class="text-sm text-slate-700">
-                     Our design process combines vision, research, and collaboration, ensuring every project is crafted with precision, creativity, and client satisfaction.
+                     Our design process combines vision, research, and collaboration, ensuring every project is crafted
+                     with precision, creativity, and client satisfaction.
                   </p>
                </div>
                <!-- supervision card -->
@@ -232,7 +248,8 @@
                   <img src="./assets/vision.png" alt="">
                   <h2 class="text-xl font-semibold capitalize">supervision</h2>
                   <p class="text-sm text-slate-700">
-                     Our supervision ensures meticulous attention to detail, overseeing every stage of the project to deliver quality results and exceed expectations.
+                     Our supervision ensures meticulous attention to detail, overseeing every stage of the project to
+                     deliver quality results and exceed expectations.
                   </p>
                </div>
                <!-- concept card -->
@@ -240,7 +257,8 @@
                   <img src="./assets/budget-planning.png" alt="">
                   <h2 class="text-xl font-semibold capitalize">Budget Planning</h2>
                   <p class="text-sm text-slate-700">
-                     Our concept designs blend creativity and strategy, transforming ideas into compelling visual plans that set the foundation for exceptional spaces
+                     Our concept designs blend creativity and strategy, transforming ideas into compelling visual plans
+                     that set the foundation for exceptional spaces
                   </p>
                </div>
             </div>
@@ -248,8 +266,82 @@
       </section>
 
       <!-- explore out latest works section -->
-      <section class="max-w-screen-xl mx-auto text-center space-y-5 p-3">
+      <section class="bg-gray-100 py-10">
+         <div class="max-w-screen-xl mx-auto space-y-5 p-3">
+            <!-- our latest works button -->
+            <button
+               class="capitalize text-sm flex mx-auto lg:m-0 gap-2 items-center px-6 py-1 bg-[#acef5f72] rounded-full text-slate-500">
+               <i class="fa-solid fa-arrow-right-long mr-auto"></i>
+               <p class="font-semibold ml-auto">explore out latest works</p>
+            </button>
 
+            <h1 class="text-3xl md:text-4xl font-extrabold max-w-6xl mx-auto capitalize text-center">
+               our latest portfolio
+            </h1>
+            <p class="text-sm text-center">
+               Explore our latest projects showcasing transformative designs that blend functionality with elegance.
+               From stunning interiors to captivating exteriors, our portfolio highlights our commitment to creating
+               spaces that inspire. Discover how we turn visions into reality with impeccable style and attention to
+               detail.
+            </p>
+            <div class="grid gap-4 grid-cols-12">
+               <!-- card 1 -->
+               <div
+                  class="p-3 rounded-lg bg-white flex flex-col md:flex-row gap-4 md:gap-6 col-span-full lg:col-start-1 lg:col-end-9 md:max-h-[190px] order-1">
+                  <img class="w-full h-full aspect-[2/1] md:max-w-[200px]" src="./assets/img1.png" alt="">
+                  <div class="flex flex-col gap-3 justify-between">
+                     <h2 class="text-xl text-slate-700 font-bold text-left capitalize">Commercial</h2>
+                     <p class="text-sm text-slate-500 text-left text-collapse-4">
+                        We design impactful commercial spaces that enhance brand identity and boost functionality,
+                        creating environments where business thrives and clients are impressed.
+                     </p>
+                     <button class=" flex gap-2 items-center font-semibold">
+                        View Details
+                        <div class="w-6 h-6 grid place-content-center p-1 bg-[#ABEF5F] rounded-full">
+                           <i class="fa-solid fa-arrow-right -rotate-45 text-sm"></i>
+                        </div>
+                     </button>
+                  </div>
+               </div>
+               <!-- card 2 -->
+               <div
+                  class="p-3 rounded-lg bg-white col-span-full md:col-start-1 md:col-end-7 lg:col-start-9 lg:col-end-13 md:max-h-[190px] order-2">
+                  <img class="w-full h-full aspect-[2/1]" src="./assets/img2.png" alt="">
+               </div>
+               <!-- card 3 -->
+               <div class="p-3 rounded-lg bg-white col-span-full md:col-start-7 md:col-end-13 lg:hidden md:max-h-[190px] order-3">
+                  <img class="w-full h-full aspect-[2/1]" src="./assets/img3.png" alt="">
+               </div>
+               <!-- card 4 -->
+               <div
+                  class="p-3 rounded-lg bg-white flex flex-col md:flex-row gap-4 md:gap-6 col-span-full order-4 lg:order-4 lg:col-start-4 lg:col-end-10 md:max-h-[190px]">
+                  <img class="w-full h-full aspect-[2/1] md:max-w-[200px]" src="./assets/img4.png" alt="">
+                  <div class="flex flex-col gap-3 justify-between">
+                     <h2 class="text-xl text-slate-700 font-bold text-left capitalize">residential</h2>
+                     <p class="text-sm text-slate-500 text-left text-collapse-4">
+                        We design impactful residential spaces that enhance brand identity and boost functionality,
+                        creating environments where business thrives and clients are impressed.
+                     </p>
+                     <button class=" flex gap-2 items-center font-semibold">
+                        View Details
+                        <div class="w-6 h-6 grid place-content-center p-1 bg-[#ABEF5F] rounded-full">
+                           <i class="fa-solid fa-arrow-right -rotate-45 text-sm"></i>
+                        </div>
+                     </button>
+                  </div>
+               </div>
+               <!-- card 5 -->
+               <div
+                  class="p-3 rounded-lg bg-white col-span-full md:col-start-1 md:col-end-7 order-5 lg:order-3 lg:col-start-1 lg:col-end-4 md:max-h-[190px]">
+                  <img class="w-full h-full aspect-[2/1]" src="./assets/img3.png" alt="">
+               </div>
+               <!-- card 6 -->
+               <div
+                  class="p-3 rounded-lg bg-white col-span-full md:col-start-7 md:col-end-13 order-6 lg:order-5 lg:col-start-10 lg:col-end-13 md:max-h-[190px]">
+                  <img class="w-full h-full aspect-[2/1]" src="./assets/img5.png" alt="">
+               </div>
+            </div>
+         </div>
       </section>
 
       <!-- news section -->
