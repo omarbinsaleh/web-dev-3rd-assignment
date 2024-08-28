@@ -4,7 +4,7 @@
 <head>
    <meta charset="UTF-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <title>Document</title>
+   <title>Rinterio</title>
    <!-- Monrope font CDN -->
    <link rel="preconnect" href="https://fonts.googleapis.com" />
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,6 +18,10 @@
    <script src="https://cdn.tailwindcss.com"></script>
 
    <style>
+      html {
+         scroll-behavior: smooth;
+      }
+
       .font-monrope {
          font-family: "Manrope", sans-serif;
       }
@@ -38,9 +42,9 @@
    </style>
 </head>
 
-<body class="font-monrope space-y-14">
+<body class="font-monrope">
    <!-- Header Section -->
-   <header>
+   <header class="mb-14">
       <section class="">
          <!-- nav bar section -->
          <nav class="navbar bg-base-100 shadow-lg mb-8">
@@ -59,7 +63,7 @@
                </button>
 
                <!-- nav links -->
-               <ul class="hidden lg:flex gap-5 text-slate-500 font-semibold">
+               <ul class="hidden lg:flex gap-6 lg:gap-7 text-slate-500 font-semibold">
                   <li><a class="hover:text-black" href="#home">Home</a></li>
                   <li><a class="hover:text-black" href="#services">Services</a></li>
                   <li>
@@ -130,14 +134,14 @@
             <div class="space-y-5 relative">
                <img class="hidden absolute xl:block -top-9 -left-12" src="./assets/Vector.png" alt="">
                <!-- about us button -->
-               <div
-                  class="capitalize text-sm flex max-w-36 mx-auto lg:m-0 gap-2 items-center px-6 py-1 bg-white rounded-full text-slate-500">
+               <button
+                  class="capitalize text-base flex mx-auto lg:m-0 gap-2 items-center px-6 py-1 bg-white rounded-full text-slate-500">
                   <i class="fa-solid fa-arrow-right-long"></i>
                   <p class="font-semibold">about us</p>
-               </div>
+               </button>
                <h1 class="text-3xl md:text-4xl font-extrabold max-w-6xl mx-auto capitalize text-center">we design
                   thoughtfull, liveable space</h1>
-               <p class="text-sm text-center">
+               <p class="text-base text-center text-collapse-4">
                   At Rinterio, we blend creativity and functionality to transform spaces both inside and out. Our team
                   of expert designers is dedicated to crafting unique, stylish environments tailored to your vision.
                   From innovative interiors to stunning exteriors, we bring your dream spaces to life with precision and
@@ -150,7 +154,7 @@
                      <img src="./assets/commercial.png" alt="">
                      <div>
                         <h2 class="text-xl text-slate-700 font-semibold text-left capitalize">Commercial</h2>
-                        <p class="text-sm text-slate-500 text-left">
+                        <p class="text-base text-slate-500 text-left text-collapse-4">
                            We design impactful commercial spaces that enhance brand identity and boost functionality,
                            creating environments where business thrives and clients are impressed.
                         </p>
@@ -161,7 +165,7 @@
                      <img src="./assets/commercial.png" alt="">
                      <div>
                         <h2 class="text-xl text-slate-700 font-semibold text-left capitalize">residential</h2>
-                        <p class="text-sm text-slate-500 text-left">
+                        <p class="text-base text-slate-500 text-left text-collapse-4">
                            We create personalized, stylish residential spaces that reflect your lifestyle and taste,
                            turning your house into a true home.
                         </p>
@@ -182,25 +186,25 @@
             <div class="text-center space-y-2 flex items-center justify-center flex-col">
                <i class="fa-solid fa-message text-3xl text-slate-700"></i>
                <h1 class="text-5xl font-bold text-slate-700">235+</h1>
-               <p class="text-sm text-slate-500">Happy Client Reviews</p>
+               <p class="text-base text-slate-500">Happy Client Reviews</p>
             </div>
             <!-- badge 2 -->
             <div class="text-center space-y-2 flex items-center justify-center flex-col">
                <i class="fa-regular fa-building text-3xl text-slate-700"></i>
                <h1 class="text-5xl font-bold text-slate-700">50+</h1>
-               <p class="text-sm text-slate-500">Work Department</p>
+               <p class="text-base text-slate-500">Work Department</p>
             </div>
             <!-- badge 3 -->
             <div class="text-center space-y-2 flex items-center justify-center flex-col">
                <i class="fa-solid fa-users text-3xl text-slate-700"></i>
                <h1 class="text-5xl font-bold text-slate-700">30+</h1>
-               <p class="text-sm text-slate-500">Our Happy Clients</p>
+               <p class="text-base text-slate-500">Our Happy Clients</p>
             </div>
             <!-- badge 4 -->
             <div class="text-center space-y-2 flex items-center justify-center flex-col">
                <i class="fa-solid fa-user-group text-3xl text-slate-700"></i>
                <h1 class="text-5xl font-bold text-slate-700">307+</h1>
-               <p class="text-sm text-slate-500">Staff Members</p>
+               <p class="text-base text-slate-500">Staff Members</p>
             </div>
          </div>
       </section>
@@ -209,16 +213,16 @@
       <section class="bg-gray-100 py-10">
          <div class="max-w-screen-xl mx-auto space-y-5 p-3">
             <!-- how we work button -->
-            <div
-               class="capitalize text-sm flex max-w-44 mx-auto lg:m-0 gap-2 items-center px-6 py-1 bg-white rounded-full text-slate-500">
+            <button
+               class="capitalize text-base flex mx-auto lg:m-0 gap-2 items-center px-6 py-1 bg-white rounded-full text-slate-500">
                <i class="fa-solid fa-arrow-right-long mr-auto"></i>
                <p class="font-semibold ml-auto">how we work</p>
-            </div>
+            </button>
 
             <h1 class="text-3xl md:text-4xl font-extrabold max-w-6xl mx-auto capitalize text-center">
                our work process
             </h1>
-            <p class="text-sm text-center">
+            <p class="text-base text-center text-collapse-4">
                At Rinterio, we blend creativity and functionality to transform spaces both inside and out. Our team of
                expert designers is dedicated to crafting unique, stylish environments tailored to your vision. From
                innovative interiors to stunning exteriors, we bring your dream spaces to life with precision and
@@ -228,8 +232,8 @@
                <!-- concept card -->
                <div class="p-6 bg-[#E7C1D3] rounded-lg space-y-3">
                   <img src="./assets/concept.png" alt="">
-                  <h2 class="text-xl font-semibold capitalize">Concept</h2>
-                  <p class="text-sm text-slate-700">
+                  <h2 class="text-xl font-bold capitalize">Concept</h2>
+                  <p class="text-base text-collapse-4 text-slate-700">
                      Our concept designs blend creativity and strategy, transforming ideas into compelling visual plans
                      that set the foundation for exceptional spaces
                   </p>
@@ -237,8 +241,8 @@
                <!-- design process card -->
                <div class="p-6 bg-[#EFDA6E] rounded-lg space-y-3">
                   <img src="./assets/flow-chart.png" alt="">
-                  <h2 class="text-xl font-semibold capitalize">design process</h2>
-                  <p class="text-sm text-slate-700">
+                  <h2 class="text-xl font-bold capitalize">design process</h2>
+                  <p class="text-base text-collapse-4 text-slate-700">
                      Our design process combines vision, research, and collaboration, ensuring every project is crafted
                      with precision, creativity, and client satisfaction.
                   </p>
@@ -246,8 +250,8 @@
                <!-- supervision card -->
                <div class="p-6 bg-[#A4DAC3] rounded-lg space-y-3">
                   <img src="./assets/vision.png" alt="">
-                  <h2 class="text-xl font-semibold capitalize">supervision</h2>
-                  <p class="text-sm text-slate-700">
+                  <h2 class="text-xl font-bold capitalize">supervision</h2>
+                  <p class="text-base text-collapse-4 text-slate-700">
                      Our supervision ensures meticulous attention to detail, overseeing every stage of the project to
                      deliver quality results and exceed expectations.
                   </p>
@@ -255,8 +259,8 @@
                <!-- concept card -->
                <div class="p-6 bg-[#77AAEA] rounded-lg space-y-3">
                   <img src="./assets/budget-planning.png" alt="">
-                  <h2 class="text-xl font-semibold capitalize">Budget Planning</h2>
-                  <p class="text-sm text-slate-700">
+                  <h2 class="text-xl font-bold capitalize">Budget Planning</h2>
+                  <p class="text-base text-collapse-4 text-slate-700">
                      Our concept designs blend creativity and strategy, transforming ideas into compelling visual plans
                      that set the foundation for exceptional spaces
                   </p>
@@ -270,7 +274,7 @@
          <div class="max-w-screen-xl mx-auto space-y-5 p-3">
             <!-- our latest works button -->
             <button
-               class="capitalize text-sm flex mx-auto lg:m-0 gap-2 items-center px-6 py-1 bg-[#acef5f72] rounded-full text-slate-500">
+               class="capitalize text-base flex mx-auto lg:m-0 gap-2 items-center px-6 py-1 bg-[#acef5f72] rounded-full text-slate-500">
                <i class="fa-solid fa-arrow-right-long mr-auto"></i>
                <p class="font-semibold ml-auto">explore out latest works</p>
             </button>
@@ -278,7 +282,7 @@
             <h1 class="text-3xl md:text-4xl font-extrabold max-w-6xl mx-auto capitalize text-center">
                our latest portfolio
             </h1>
-            <p class="text-sm text-center">
+            <p class="text-base text-center text-collapse-4">
                Explore our latest projects showcasing transformative designs that blend functionality with elegance.
                From stunning interiors to captivating exteriors, our portfolio highlights our commitment to creating
                spaces that inspire. Discover how we turn visions into reality with impeccable style and attention to
@@ -291,7 +295,7 @@
                   <img class="w-full h-full aspect-[2/1] md:max-w-[200px]" src="./assets/img1.png" alt="">
                   <div class="flex flex-col gap-3 justify-between">
                      <h2 class="text-xl text-slate-700 font-bold text-left capitalize">Commercial</h2>
-                     <p class="text-sm text-slate-500 text-left text-collapse-4">
+                     <p class="text-base text-slate-500 text-left text-collapse-4">
                         We design impactful commercial spaces that enhance brand identity and boost functionality,
                         creating environments where business thrives and clients are impressed.
                      </p>
@@ -309,7 +313,8 @@
                   <img class="w-full h-full aspect-[2/1]" src="./assets/img2.png" alt="">
                </div>
                <!-- card 3 -->
-               <div class="p-3 rounded-lg bg-white col-span-full md:col-start-7 md:col-end-13 lg:hidden md:max-h-[190px] order-3">
+               <div
+                  class="p-3 rounded-lg bg-white col-span-full md:col-start-7 md:col-end-13 lg:hidden md:max-h-[190px] order-3">
                   <img class="w-full h-full aspect-[2/1]" src="./assets/img3.png" alt="">
                </div>
                <!-- card 4 -->
@@ -318,7 +323,7 @@
                   <img class="w-full h-full aspect-[2/1] md:max-w-[200px]" src="./assets/img4.png" alt="">
                   <div class="flex flex-col gap-3 justify-between">
                      <h2 class="text-xl text-slate-700 font-bold text-left capitalize">residential</h2>
-                     <p class="text-sm text-slate-500 text-left text-collapse-4">
+                     <p class="text-base text-slate-500 text-left text-collapse-4">
                         We design impactful residential spaces that enhance brand identity and boost functionality,
                         creating environments where business thrives and clients are impressed.
                      </p>
@@ -349,7 +354,7 @@
          <div class="max-w-screen-xl mx-auto space-y-5 p-3">
             <!-- our latest works button -->
             <button
-               class="capitalize text-sm flex mx-auto lg:m-0 gap-2 items-center px-6 py-1 bg-[#acef5f72] rounded-full text-slate-500">
+               class="capitalize text-base flex mx-auto lg:m-0 gap-2 items-center px-6 py-1 bg-[#acef5f72] rounded-full text-slate-500">
                <i class="fa-solid fa-arrow-right-long mr-auto"></i>
                <p class="font-semibold ml-auto">Rintero's News</p>
             </button>
@@ -357,8 +362,10 @@
             <h1 class="text-3xl md:text-4xl font-extrabold max-w-6xl mx-auto capitalize text-center">
                read out article news
             </h1>
-            <p class="text-sm text-center">
-               Stay tuned for the latest updates in design trends, project highlights, and company news. We’re excited to share new inspirations, behind-the-scenes looks, and exclusive insights into our creative process. Check back regularly to see how we're shaping spaces and setting new standards in design excellence.
+            <p class="text-base text-center text-collapse-4">
+               Stay tuned for the latest updates in design trends, project highlights, and company news. We’re excited
+               to share new inspirations, behind-the-scenes looks, and exclusive insights into our creative process.
+               Check back regularly to see how we're shaping spaces and setting new standards in design excellence.
             </p>
             <div class="grid lg:grid-cols-3 grid-cols-1 gap-4">
                <!-- card 1 -->
@@ -375,11 +382,15 @@
                            <p>By Admin</p>
                         </div>
                      </div>
-                     <h2 class="text-xl text-slate-700 font-bold text-left capitalize text-collapse-2">Best Divan Beds with Compact and Beautiful Designs</h2>
-                     <p class="text-sm text-slate-500 text-left text-collapse-2">
-                        Explore the top divan beds in this insightful article, featuring a range of styles and options to suit every bedroom. From space-saving designs to luxurious comfort, discover how divan beds combine practicality with elegance. Our guide
+                     <h2 class="text-xl text-slate-700 font-bold text-left capitalize text-collapse-2">Best Divan Beds
+                        with Compact and Beautiful Designs</h2>
+                     <p class="text-base text-slate-500 text-left text-collapse-2">
+                        Explore the top divan beds in this insightful article, featuring a range of styles and options
+                        to suit every bedroom. From space-saving designs to luxurious comfort, discover how divan beds
+                        combine practicality with elegance. Our guide
                      </p>
-                     <a href="https://economictimes.indiatimes.com/top-trending-products/furniture/beds/best-divan-beds-with-compact-and-beautiful-designs/articleshow/112778489.cms" target="_blank" class=" flex gap-2 items-center font-bold">
+                     <a href="https://economictimes.indiatimes.com/top-trending-products/furniture/beds/best-divan-beds-with-compact-and-beautiful-designs/articleshow/112778489.cms"
+                        target="_blank" class=" flex gap-2 items-center font-bold">
                         View Details
                         <div class="w-6 h-6 grid place-content-center p-1 bg-[#ABEF5F] rounded-full">
                            <i class="fa-solid fa-arrow-right -rotate-45 text-sm"></i>
@@ -394,18 +405,27 @@
                      <div class=" flex gap-8 items-center">
                         <div class="text-sm text-gray-500 flex gap-2 items-center">
                            <i class="fa-solid fa-calendar-days"></i>
-                           <p class="">July 14, 2024</p>
+                           <p class="">November 09, 2022</p>
                         </div>
                         <div class="text-sm text-gray-500 flex gap-2 items-center">
                            <i class="fa-solid fa-user"></i>
-                           <p>By Admin</p>
+                           <p>By Opus Web Design</p>
                         </div>
                      </div>
-                     <h2 class="text-xl text-slate-700 font-bold text-left capitalize text-collapse-2">Best Divan Beds with Compact and Beautiful Designs</h2>
-                     <p class="text-sm text-slate-500 text-left text-collapse-2">
-                        Explore the top divan beds in this insightful article, featuring a range of styles and options to suit every bedroom. From space-saving designs to luxurious comfort, discover how divan beds combine practicality with elegance. Our guide
+                     <h2 class="text-xl text-slate-700 font-bold text-left capitalize text-collapse-2">
+                        Why It Is Important To Combine Exterior And Interior Design
+                     </h2>
+                     <p class="text-base text-slate-500 text-left text-collapse-2">
+                        One of the main reasons why it is important to combine exterior and interior design is because
+                        it creates a sense of flow. When you enter a home, you should feel like you are entering into
+                        one cohesive space. If the exterior and interior design of your home is not harmonious, it can
+                        feel like you are walking into two different homes. The best way to create a sense of flow is to
+                        choose a theme or style for your home and carry it throughout both the interior and exterior.
+                        You can check commercial roof exhaust fans for some inspiration on how to create a cohesive home
+                        design. This will make your home feel more cohesive and inviting.
                      </p>
-                     <a href="https://economictimes.indiatimes.com/top-trending-products/furniture/beds/best-divan-beds-with-compact-and-beautiful-designs/articleshow/112778489.cms" target="_blank" class=" flex gap-2 items-center font-bold">
+                     <a href="https://www.onlinedesignteacher.com/2022/11/why-it-is-important-to-combine-exterior.html"
+                        target="_blank" class=" flex gap-2 items-center font-bold">
                         View Details
                         <div class="w-6 h-6 grid place-content-center p-1 bg-[#ABEF5F] rounded-full">
                            <i class="fa-solid fa-arrow-right -rotate-45 text-sm"></i>
@@ -420,18 +440,24 @@
                      <div class=" flex gap-8 items-center">
                         <div class="text-sm text-gray-500 flex gap-2 items-center">
                            <i class="fa-solid fa-calendar-days"></i>
-                           <p class="">July 14, 2024</p>
+                           <p class="">July 11, 2024</p>
                         </div>
                         <div class="text-sm text-gray-500 flex gap-2 items-center">
                            <i class="fa-solid fa-user"></i>
-                           <p>By Admin</p>
+                           <p>By Avery Campbell</p>
                         </div>
                      </div>
-                     <h2 class="text-xl text-slate-700 font-bold text-left capitalize text-collapse-2">Best Divan Beds with Compact and Beautiful Designs</h2>
-                     <p class="text-sm text-slate-500 text-left text-collapse-2">
-                        Explore the top divan beds in this insightful article, featuring a range of styles and options to suit every bedroom. From space-saving designs to luxurious comfort, discover how divan beds combine practicality with elegance. Our guide
+                     <h2 class="text-xl text-slate-700 font-bold text-left capitalize text-collapse-2">
+                        Interior Design vs Exterior Design What is the Difference : Understanding the Distinctions and
+                        Importance of Both
+                     </h2>
+                     <p class="text-base text-slate-500 text-left text-collapse-2">
+                        Interior design and exterior design both play a crucial role in creating beautiful and
+                        functional spaces. While they share some similarities, there are also distinct differences
+                        between the two that are important to understand.
                      </p>
-                     <a href="https://economictimes.indiatimes.com/top-trending-products/furniture/beds/best-divan-beds-with-compact-and-beautiful-designs/articleshow/112778489.cms" target="_blank" class=" flex gap-2 items-center font-bold">
+                     <a href="https://www.coohom.com/article/interior-design-vs-exterior-design-what-s-the-difference"
+                        target="_blank" class=" flex gap-2 items-center font-bold">
                         View Details
                         <div class="w-6 h-6 grid place-content-center p-1 bg-[#ABEF5F] rounded-full ">
                            <i class="fa-solid fa-arrow-right -rotate-45 text-sm"></i>
@@ -442,10 +468,78 @@
             </div>
          </div>
       </section>
+
+      <!-- contact fomr section -->
+      <section id="contact-us" class="bg-gray-100 py-10 mt-2">
+         <div class="max-w-screen-xl mx-auto space-y-5 p-3">
+            <!-- our latest works button -->
+            <button
+               class="capitalize text-base flex mx-auto lg:m-0 gap-2 items-center px-6 py-1 bg-[#acef5f72] rounded-full text-slate-500">
+               <i class="fa-solid fa-arrow-right-long mr-auto"></i>
+               <p class="font-semibold ml-auto">let's connect</p>
+            </button>
+
+            <h1 class="text-3xl md:text-4xl font-extrabold max-w-6xl mx-auto capitalize text-center">
+               let's discuss next projects
+            </h1>
+            <p class="text-base text-center text-collapse-4">
+               Let's connect and collaborate! Reach out to discuss ideas, share feedback, or explore opportunities.
+               Together, we can create something amazing. Contact me today and let's start the conversation
+            </p>
+            <form class="grid grid-cols-2 gap-5" action="">
+               <input class="p-4 col-span-full md:col-start-1 md:col-end-2 rounded-full shadow-sm" type="text"
+                  name="first-name" id="first-name" placeholder="First Name*">
+               <input class="p-4 col-span-full md:col-start-2 md:col-end-3 rounded-full shadow-sm" type="text"
+                  name="last-name" id="last-name" placeholder="Last Name*">
+               <input class="p-4 col-span-full md:col-start-1 md:col-end-2 rounded-full shadow-sm" type="text"
+                  name="phone-number" id="phone-number" placeholder="Phone Number*">
+               <input class="p-4 col-span-full md:col-start-2 md:col-end-3 rounded-full shadow-sm" type="email"
+                  name="email" id="email" placeholder="Email Number*">
+               <textarea class="h-48 col-span-full p-4 rounded-xl shadow-sm" name="textarea" id="textarea"
+                  placeholder="Write your message here"></textarea>
+               <button role="submit"
+                  class="flex gap-4 capitalize  items-center justify-center p-3 bg-[#acef5f] rounded-full col-span-full">
+                  <h2 class="text-md font-bold">Send Mail</h2>
+                  <div class="w-6 h-6 grid place-content-center p-2 bg-black rounded-full text-white">
+                     <i class="fa-solid fa-arrow-right -rotate-45 text-sm"></i>
+                  </div>
+               </button>
+            </form>
+
+         </div>
+      </section>
    </main>
 
    <!-- Footer Section -->
-   <footer></footer>
+   <footer class=" bg-black text-white text-base p-10 mt-0 space-y-10">
+      <!-- logo -->
+      <button class="flex gap-2 mx-auto items-center">
+         <div class="w-7 h-7 grid place-content-center p-1 text-black bg-[#ABEF5F] rounded-full">
+            <i class="fa-solid fa-arrow-right -rotate-45"></i>
+         </div>
+         <h1 class="font-bold text-2xl">Rinterio</h1>
+      </button>
+      <!-- description -->
+      <p class="text-base text-center text-gray-400">
+         © 2024 Rinterio. Thank you for visiting! Stay connected with us for updates, news, and more. For inquiries or
+         feedback, don’t hesitate to reach out. Your support and engagement are appreciated as we continue to innovate
+         and grow together."
+      </p>
+      <nav class="flex flex-col gap-6 items-center text-gray-200 md:flex-row md:justify-between lg:justify-evenly">
+         <a href="#home" class="link hover:underline">Home</a>
+         <a href="#services" class="link hover:underline">Service</a>
+         <a href="#portfolio" class="link link-hover hover:underline">Portfolio</a>
+         <a href="#blogs" class="link link-hover hover:underline">Blogs</a>
+         <a href="#contact-us" class="link link-hover hover:underline">Contats us</a>
+      </nav>
+      <a href="#contact-us" role="submit"
+         class="flex gap-4 mx-auto  capitalize w-full md:w-72 items-center justify-center py-3 px-9 bg-[#acef5f] rounded-full">
+         <h2 class="text-md font-bold text-black">Book Consult</h2>
+         <div class="w-6 h-6 grid place-content-center p-2 bg-black rounded-full text-white">
+            <i class="fa-solid fa-arrow-right -rotate-45 text-sm"></i>
+         </div>
+      </a>
+   </footer>
 </body>
 
 </html>
